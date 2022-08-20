@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  /* padding: 10px; */
+}
+
+.Dates{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+  width: 90%;
+  margin: auto auto;
+}
+
+.date-main{
+  /* border: 1px solid black; */
+  width: 120px;
+  height: 70px;
+  border-radius: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(233, 237, 240);
+}
+
+.date-main:hover{
+  background-color: rgb(241, 66, 66);
+  color: white;
+}
+
+.League{
+  border: 1px solid rgb(192, 184, 184);
+  width: 90%;
+  height: fit-content;
+  display: block;
+  padding: 10px 0px;
+  border-radius: 15px;
+  margin: auto auto;
+  margin-top: 20px;
+}
+
+.LeagueData-Main{
+  /* border: 1px solid black; */
+  /* padding: 5px; */
+  margin-bottom: 10px;
+  background-color: rgb(244, 246, 240);
+}
+
+.LeagueData-Country{
+  background-color: rgb(241, 66, 66);
+}
+
+.LeagueData-MatchDate{
+  padding-bottom: 15px;
+}
+
+.LeagueData-Main h6{
+  margin-bottom: 15px;
+  /* border-bottom: 1px solid black; */
+}
+
+.LeagueData-Main hr{
+  width: 90%;
+}
+
+.Match-Data{
+  display: flex;
+  gap: 20%;
+  margin: auto auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: 1px solid black;
+  background-image: linear-gradient(110deg, rgb(241, 66, 66), rgb(241, 66, 66), rgb(241, 66, 66),rgb(241, 66, 66), black,  black, black, black, black);
+}
+
+.Match-Data h5{
+  color: white;
+}
+
+.Match-Outcome-Main{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  margin: 4% auto;
+}
+
+.Match-Outcome{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  /* border: 1px solid black; */
+}
+
+.Total-Odds{
+  display: flex;
+  margin: 5% 40%;
+}
+
+.Odds{
+  color: rgb(241, 66, 66);
+}
+
+.Output{
+  margin: 5% auto;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background-color: rgb(234, 228, 228);
+  width: 60%;
+}
+
+.Output > thead > tr > th {
+  color: rgb(241, 66, 66);
+}
+
+
+.Output > tbody > tr > td{
+  border: 1px solid rgb(205, 201, 201);
+  background-color: white;
+}
